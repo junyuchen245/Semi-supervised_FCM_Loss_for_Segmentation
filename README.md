@@ -1,11 +1,11 @@
 # Supervised and Unsupervised FCM Loss for ConvNet-based Image Segmentation
 Supervised and unsupervised loss functions for image segmentation based on the classical FCM objective function.
 
-This is a Pythone implementation (TensorFlow and Pytorch) of my paper:
+This is a Python implementation (TensorFlow and Pytorch) of my paper:
 
-Chen, Junyu, et al. "Learning Fuzzy Clustering for SPECT/CT Segmentation via Convolutional Neural Networks." Medical Physics, 2021 (In presee).
+Chen, Junyu, et al. "Learning Fuzzy Clustering for SPECT/CT Segmentation via Convolutional Neural Networks." Medical Physics, 2021 (In press).
 
-We present semi-, un-, and supervised loss functions based on the objective function of a Fuzzy C-means algorithm. The unsupervised loss function does not depend on grountruth labelmap, which enables the unsupervised (self-supervised) training of a neural network. Combined with the proposed supervised loss, we form a semi-supervised loss function. This loss function leverages both intensity distribution information and ground truth label, which improved the generalizability of our segmetnation network. In our paper, we showed that a ConvNet trained with purely simulation images can still yield usable segmentation for clinical images (unseen images from training dataset).
+We present semi-, un-, and supervised loss functions based on the objective function of a Fuzzy C-means algorithm. The unsupervised loss function does not depend on the ground truth label map, enabling the unsupervised (self-supervised) training of a neural network. Combined with the proposed supervised loss, we form a semi-supervised loss function. This loss function leverages both intensity distribution and ground-truth labels, which improved our segmentation network's generalizability. Our paper showed that a ConvNet trained with purely simulation images can still yield usable segmentation for clinical images (unseen images from training dataset).
 
 ## Model Overview:
 <img src="https://github.com/junyuchen245/Semi-supervised_FCM_Loss_for_Segmentation/blob/main/figures/overview.jpg" width="600"/>
