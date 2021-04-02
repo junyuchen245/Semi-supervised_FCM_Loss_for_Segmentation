@@ -16,3 +16,20 @@ We present semi-, un-, and supervised loss functions based on the objective func
 ## Example Results (Semi-supervised and supervised loss):
 Note that the networks were trained using ***purely*** simulated images and tested on the "unseen" clinical patient images.
 <img src="https://github.com/junyuchen245/Semi-supervised_FCM_Loss_for_Segmentation/blob/main/figures/patient_test.JPG" width="800"/>
+
+
+
+If you find this code is useful in your research, please consider to cite:
+
+    @article{chen2021SPECT,
+    title={Learning Fuzzy Clustering for SPECT/CT Segmentation via Convolutional Neural Networks},
+    author={Chen, Junyu and Li, Ye and Luna, Licia P. and Chung, Hyun Woo and Rowe, Steven P.  and Du, Yong and Solnes, Lilja B. and Frey, Eric C.},
+    journal={Medical physics},
+    year={in press},
+    publisher={Wiley Online Library}
+    }
+
+ 
+ 
+### <a href="https://junyuchen245.github.io"> About Me</a>
+
