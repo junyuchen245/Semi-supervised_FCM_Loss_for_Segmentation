@@ -25,7 +25,7 @@ If you find this code is useful in your research, please consider to cite:
     title={Learning Fuzzy Clustering for SPECT/CT Segmentation via Convolutional Neural Networks},
     author={Chen, Junyu and Li, Ye and Luna, Licia P. and Chung, Hyun Woo and Rowe, Steven P.  and Du, Yong and Solnes, Lilja B. and Frey, Eric C.},
     journal={Medical physics},
-    year={in press},
+    year={2021 (in press)},
     publisher={Wiley Online Library}
     }
 
