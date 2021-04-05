@@ -1,7 +1,7 @@
 # Supervised and Unsupervised FCM Loss for ConvNet-based Image Segmentation
-Supervised and unsupervised loss functions for image segmentation based on the classical FCM objective function.
-
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+
+Supervised and unsupervised loss functions for image segmentation based on the classical FCM objective function.
 
 This is a Python implementation (TensorFlow and Pytorch) of my paper:
 
