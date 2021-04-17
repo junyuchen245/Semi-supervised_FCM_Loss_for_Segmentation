@@ -13,6 +13,7 @@ We present semi-, un-, and supervised loss functions based on the objective func
 <img src="https://github.com/junyuchen245/Semi-supervised_FCM_Loss_for_Segmentation/blob/main/figures/overview.jpg" width="600"/>
 
 ## Example Results (Unsupervised RFCM loss):
+Example predictions obtained using the unsupervised RFCM loss (i.e., the network was trained using images without ground truth labels):
 <img src="https://github.com/junyuchen245/Semi-supervised_FCM_Loss_for_Segmentation/blob/main/figures/beta_results.jpg" width="1000"/>
 
 ## Example Results (Semi-supervised and supervised loss):
