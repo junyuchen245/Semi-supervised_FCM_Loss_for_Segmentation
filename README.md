@@ -5,7 +5,7 @@ Supervised and unsupervised loss functions for image segmentation based on the c
 
 This is a Python implementation (TensorFlow and Pytorch) of my paper:
 
-Chen, Junyu, et al. "Learning Fuzzy Clustering for SPECT/CT Segmentation via Convolutional Neural Networks." Medical Physics, 2021 (In press).
+<a href="https://arxiv.org/abs/2104.08623">Chen, Junyu, et al. "Learning Fuzzy Clustering for SPECT/CT Segmentation via Convolutional Neural Networks." Medical Physics, 2021 (In press).</a>
 
 We present semi-, un-, and supervised loss functions based on the objective function of a Fuzzy C-means algorithm. The unsupervised loss function does not depend on the ground truth label map, enabling the unsupervised (self-supervised) training of a neural network. Combined with the proposed supervised loss, we form a semi-supervised loss function. This loss function leverages both intensity distribution and ground-truth labels, which improved our segmentation network's generalizability. Our paper showed that a ConvNet trained with purely simulation images can still yield usable segmentation for clinical images (unseen images from training dataset).
 
