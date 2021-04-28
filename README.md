@@ -24,13 +24,16 @@ Note that the networks were trained using ***purely*** simulated images and test
 
 If you find this code is useful in your research, please consider to cite:
 
-    @article{chen2021SPECT,
-    title={Learning Fuzzy Clustering for SPECT/CT Segmentation via Convolutional Neural Networks},
-    author={Chen, Junyu and Li, Ye and Luna, Licia P. and Chung, Hyun Woo and Rowe, Steven P.  and Du, Yong and Solnes, Lilja B. and Frey, Eric C.},
-    journal={Medical physics},
-    year={2021 (in press)},
-    publisher={Wiley Online Library}
-    }
+    @article{https://doi.org/10.1002/mp.14903, 
+    author = {Chen, Junyu and Li, Ye and Luna, Licia P. and Chung, Hyun Woo and Rowe, Steven P. and Du, Yong and Solnes, Lilja B. and Frey, Eric C.}, 
+    title = {Learning Fuzzy Clustering for SPECT/CT Segmentation via Convolutional Neural Networks}, 
+    journal = {Medical Physics}, 
+    volume = {n/a}, 
+    number = {n/a}, 
+    pages = {}, 
+    doi = {https://doi.org/10.1002/mp.14903}, 
+    url = {https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.14903}, 
+    eprint = {https://aapm.onlinelibrary.wiley.com/doi/pdf/10.1002/mp.14903}}
 
  
  
