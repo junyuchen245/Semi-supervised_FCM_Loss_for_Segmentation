@@ -1,5 +1,5 @@
-# Supervised and Unsupervised FCM Loss for ConvNet-based Image Segmentation
-<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+# Learning Fuzzy Clustering via Convolutional Neural Networks
+<a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a> [![arXiv](https://img.shields.io/badge/arXiv-2104.08623-b31b1b.svg)](https://arxiv.org/abs/2104.08623)
 
 Supervised and unsupervised loss functions for ConvNet image segmentation based on the classical FCM objective function.
 
