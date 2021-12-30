@@ -79,7 +79,7 @@ class RFCM_loss(nn.Module):
         J_2 = 0
         for i in range(num_clus):
             mem = torch.pow(pred[:, i, ...], self.fuzzy_factor) #extracting membership function (bs, V)
-            v_k = torch.mean(img * mem, dim=1, keepdim=True)/torch.sum(mem, dim=1, keepdim=True) #scalar
+            v_k = torch.sum(img * mem, dim=1, keepdim=True)/torch.sum(mem, dim=1, keepdim=True) #scalar
             J_1 += mem*torch.square(img - v_k) #(bs, V)
             J_in = 0
             for j in range(num_clus):
